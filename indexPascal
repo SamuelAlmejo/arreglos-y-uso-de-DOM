@@ -1,0 +1,18 @@
+<!DOCTYPE html>  
+<html>  
+ <head>  
+  <meta charset="utf-8">  
+  <meta name="triangulo Pascal" content="width=device-width">  
+  <title>Triángulo de Pascal</title>  
+ </head>  
+ <body>  
+  <h2>Triángulo de Pascal</h2>  
+  <p id="resultado"></p>  
+  <form>
+      <input type="text" name="nivel" id= "nivel" placeholder="Ingrese el número de niveles que desearía observar:">
+      <button type="button" onclick="obtenerDatos()">Enviar</button>
+  </form>
+      
+  <script type="text/javascript" src="trianguloPascal.js"></script>  
+ </body>  
+</html>  
