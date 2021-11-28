@@ -1,0 +1,17 @@
+<!DOCTYPE html>  
+<html>  
+ <head>  
+  <meta charset="utf-8">  
+  <meta name="Matriz triangular" content="width=device-width">  
+  <title>Matriz triangular</title>  
+ </head>  
+ <body>  
+  <h2>Matriz triangular</h2>  
+  <form>
+      <input type="text" name="nivel" id= "nivel" placeholder="Ingrese la matriz">
+      <button type="button" onclick="esMatrizTriangularInferior([[1, 0, 0], [2, 1, 0], [3, 2, 8]])">Enviar</button>
+  </form>
+        
+  <script type="text/javascript" src="matriztriangular.js"></script>  
+ </body>  
+</html>  
